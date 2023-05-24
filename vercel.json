@@ -1,16 +1,16 @@
 {
   "redirects": [
     {
-      "source": "/post/:slug*",
-      "destination": "https://blog.letsincorp.com/:slug*",
-      "permanent": true,
+      "source": "/:slug*",
       "has": [
         {
           "type": "header",
           "key": "Referer",
           "value": "*facebook.com*"
         }
-      ]
+      ],
+      "destination": "https://blog.letsincorp.com/:slug*",
+      "permanent": true
     }
   ]
 }
