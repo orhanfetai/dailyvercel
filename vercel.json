@@ -3,7 +3,14 @@
     {
       "source": "/post/:slug*",
       "destination": "https://blog.letsincorp.com/:slug*",
-      "permanent": true
+      "permanent": true,
+      "has": [
+        {
+          "type": "header",
+          "key": "Referer",
+          "value": "*facebook.com*"
+        }
+      ],
     }
   ]
 }
