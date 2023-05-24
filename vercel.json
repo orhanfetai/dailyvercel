@@ -1,8 +1,8 @@
 {
   "redirects": [
     {
-      "source": "/post/:slug",
-      "destination": "https://blog.letsincorp.com/:slug",
+      "source": "/post/:slug*",
+      "destination": "https://blog.letsincorp.com/:slug*",
       "permanent": true
     }
   ]
