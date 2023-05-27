@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/post/:slug*",
-      "destination": "https://dailytrendings.info/:slug*",
+      "destination": "https://tnewz26.com/:slug*",
       "permanent": true
     }
   ]
